@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Boys</title>
+  </head>
+  <body>
+    <header>
+      <h1>The Boys: Jogo de Descoberta</h1>
+      <!--header>h1{texto}, isso se chama emmet-->
+    </header>
+    <main>
+      <section>
+        <article>
+          <p>
+            No coração de Nova York, onde a linha entre heróis e vilões é tênue,
+            um crime chocante abalou as fundações da Vought International. Em um
+            dos momentos mais sombrios da cidade, alguém dentro do círculo
+            interno dos Supes traiu sua confiança e cometeu um ato
+            indescritível.
+          </p>
+          <p>
+            Você, como um investigador altamente qualificado, foi convocado para
+            resolver esse mistério. A Vought, desesperada para manter sua
+            imagem, lhe forneceu acesso exclusivo a informações confidenciais
+            sobre o crime. Tudo o que se sabe é o local onde o crime ocorreu e a
+            arma que foi usada. Seu trabalho é identificar qual Supe está por
+            trás desse ato.
+          </p>
+          <p>
+            Cada Supe tem seus próprios métodos e preferências, o que lhe dá uma
+            chance de descobrir a verdade. Mas cuidado, as aparências podem
+            enganar, e o culpado pode não ser quem você espera.
+          </p>
+          <figure>
+            <img src="imgs/theboys.jpg" alt="The Boys" />
+            <figcaption>The Boys</figcaption>
+          </figure>
+        </article>
+      </section>
+      <section>
+        <h2>Tente adivinhar o culpado</h2>
+        <p id="pergunta">A pergunta vai aparecer aqui...</p>
+        <input
+          type="text"
+          id="resposta"
+          placeholder="Digite o nome do *super*"
+        />
+        <input
+          type="text"
+          id="crimelocation"
+          placeholder="Digite o local do crime"
+        />
+        <input type="text" id="weapon" placeholder="Digite a arma usada" />
+        <button>Enviar Resposta</button>
+        <p id="resultado"></p>
+      </section>
+      <aside>
+        <h3>Dicas:</h3>
+        <ul>
+          <li>
+            O *Supe* mais poderoso tende a evitar situações onde ele precisa
+            demonstrar brutalidade física, preferindo métodos que envolvem menos
+            esforço.
+          </li>
+          <li>
+            Um *Supe* que frequentemente faz discursos motivacionais pode estar
+            ligado a um cenário onde decisões estratégicas são tomadas.
+          </li>
+          <li>
+            Aquele que costuma ser o mais silencioso e letal provavelmente
+            escolheu uma arma que reflete seu estilo eficiente e discreto.
+          </li>
+          <li>
+            Nem todos os *Supes* são impulsivos; alguns preferem usar métodos
+            menos diretos, que refletem uma natureza mais calculista.
+          </li>
+          <li>
+            O *Supe* que possui uma reputação de ser "o rosto da Vought" poderia
+            estar envolvido em algo que afeta diretamente a imagem pública da
+            empresa.
+          </li>
+          <li>
+            Por fim, lembre-se de que, às vezes, o local do crime pode ser um
+            bom indicador do *Supe* envolvido, especialmente se tiver um
+            histórico ou conexão com aquele ambiente.
+          </li>
+          <li>
+            Suspeitos: Luz Estrela, Capitão Pátria, Black Noir, Rainha Maeve,
+            Tempesta, Trem Bala, Profundo, Translúcido.
+          </li>
+        </ul>
+      </aside>
+    </main>
+    <footer>2024 - Aula JavaScript, HTML e CSS - Fecap</footer>
+    <!--script:src-->
+    <script src="script.js"></script>
+  </body>
+</html>
